@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 110px;
+    background-color: #f3f3f3;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden; 
+    box-shadow: 0 0 10px rgba(54, 154, 169, 0.1); 
+    background-color: #fff;
+}
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    padding: 10px;
+}
+
+form input, form button {
+    display: block;
+    width: calc(100% - 20px); 
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+form input[type="text"] {
+    margin-bottom: 10px; 
+}
+
+form button {
+    background-color: #7ABA78;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+li span {
+    flex-basis: 50%; 
+}
+li:last-child {
+    border-bottom: none;
+}
+
+.delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: #da190b;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+}
+
